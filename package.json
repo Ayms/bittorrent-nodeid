@@ -1,0 +1,33 @@
+{
+  "name": "bittorrent-nodeid",
+  "description": "BEP42 DHT security extension implementation",
+  "version": "0.1.1",
+  "author": {
+    "name": "Aymeric Vitte",
+    "email": "contact@peersm.com",
+    "url": "http://www.peersm.com"
+  },
+  "homepage": "http://torrent-live.org",
+  "keywords": [
+    "torrent",
+    "bittorrent",
+    "dht",
+    "distributed hash table",
+    "protocol",
+    "peer",
+    "p2p",
+    "peer-to-peer",
+	"privacy",
+	"anonymity",
+	"streaming",
+	"freerider",
+	"spies",
+	"TV"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Ayms/bittorrent-nodeid.git"
+  }
+}
