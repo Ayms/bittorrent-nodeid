@@ -1,7 +1,7 @@
-bittorrent-nodeID: javascript implementation of BEP42, bittorrent DHT security extension where the nodeID is tied to the IP address of the peer
+bittorrent-nodeID
 ===
 
-Javascript implementation of [BEP42 - DHT Security extension](http://www.bittorrent.org/beps/bep_0042.html) to calculate or check a peer nodeID.
+Javascript implementation of [BEP42 - DHT Security extension](http://www.bittorrent.org/beps/bep_0042.html) to calculate or check the nodeID of a peer.
 
 BEP42 is implemented for uTorrent.
 
@@ -18,7 +18,7 @@ Then simply use the generate_id function (ip,random byte):
 
 ## Related projects :
 
-* [Ayms/node-Tor](https://github.com/Ayms/torrent-live)
+* [Ayms/torrent-live](https://github.com/Ayms/torrent-live)
 * [Ayms/node-Tor](https://github.com/Ayms/node-Tor)
 * [Ayms/iAnonym](https://github.com/Ayms/iAnonym)
 * [Interception Detector](http://www.ianonym.com/intercept.html)
