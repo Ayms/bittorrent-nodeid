@@ -1,4 +1,4 @@
-var crc32c=require('crc32c');
+var crc32c=require('./node_modules/js_crc32c.js');
 
 var generate_id=function(ip,rand) { //rand 0-255
 	//124.31.75.21
