@@ -24,7 +24,9 @@ Then:
 	
 ## Note about the binary format
 
-BEP42 does define the following calculation to compute the nodeID: crc32c((ip & 0x030f3fff) | (r << 29))
+BEP42 does define the following calculation to compute the nodeID:
+
+	crc32c((ip & 0x030f3fff) | (r << 29))
 
 Where ip is the ip address representation in network byte order.
 
