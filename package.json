@@ -1,12 +1,8 @@
 {
   "name": "bittorrent-nodeid",
   "description": "BEP42 DHT security extension implementation",
-  "version": "0.1.1",
-  "author": {
-    "name": "Aymeric Vitte",
-    "email": "contact@peersm.com",
-    "url": "http://www.peersm.com"
-  },
+  "version": "0.1.2",
+  "author": "Aymeric Vitte <contact@peersm.com> (http://www.peersm.com)",
   "homepage": "http://torrent-live.org",
   "keywords": [
     "torrent",
@@ -17,12 +13,12 @@
     "peer",
     "p2p",
     "peer-to-peer",
-	"privacy",
-	"anonymity",
-	"streaming",
-	"freerider",
-	"spies",
-	"TV"
+    "privacy",
+    "anonymity",
+    "streaming",
+    "freerider",
+    "spies",
+    "TV"
   ],
   "license": "MIT",
   "main": "index.js",
@@ -31,7 +27,18 @@
     "url": "git://github.com/Ayms/bittorrent-nodeid.git"
   },
   "optionalDependencies": {
-	"fast-crc32c": "^0.1.5",
-	"sse4_crc32": "^2.1.2"
+    "fast-crc32c": "^0.1.5",
+    "sse4_crc32": "^2.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Ayms/bittorrent-nodeid/issues"
+  },
+  "dependencies": {
+    "fast-crc32c": "^0.1.5",
+    "sse4_crc32": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
