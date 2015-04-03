@@ -3,7 +3,7 @@ bittorrent-nodeID
 
 Javascript implementation of [BEP42 - DHT Security extension](http://www.bittorrent.org/beps/bep_0042.html) to calculate or check the nodeID of a peer.
 
-BEP42 is implemented for uTorrent.
+BEP42 is implemented in projects uTorrent, libtorrent and bootstrap-dht.
 
 ## Installation and use
 
