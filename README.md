@@ -24,6 +24,12 @@ Then:
 	
 ## Note about the binary format
 
+BEP42 does define the following calculation to compute the nodeID: crc32c((ip & 0x030f3fff) | (r << 29))
+
+Where ip is the ip address representation in network byte order.
+
+For ip 124.31.75.21, the calculation with a random number set to 1 will be crc32c((0x7c1f4b15 & 0x030f3fff) | (1 << 29)), so crc32c(0x200f0b15) which is computed as crc32c('ABCD') where ABCD are the characters corresponding to the ascii code of each byte, the current implementations do process crc32c progessively byte by byte (then crc32c('A'), crc32c('B', previous result), etc).
+
 In javascript a character outside of the normal ascii range like 'Á' will be interpreted as utf8 0xc381 and crc32c.calculate('Á') will give 'b1cf5bcd'
 
 But most of the c++ libraries does handle this byte by byte, so 'Á' will be interpreted as 0xc1 and crc32c.calculate('Á') will give '639bf696'
