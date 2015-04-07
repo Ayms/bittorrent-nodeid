@@ -1,7 +1,7 @@
 {
   "name": "bittorrent-nodeid",
   "description": "BEP42 DHT security extension implementation",
-  "version": "0.1.3",
+  "version": "0.1.1",
   "author": "Aymeric Vitte <contact@peersm.com> (http://www.peersm.com)",
   "homepage": "http://torrent-live.org",
   "keywords": [
