@@ -36,6 +36,7 @@ But most of the c++ libraries does handle this byte by byte, so 'Á' will be int
 
 ## Related projects :
 
+* [Ayms/bitcoin-wallets](https://github.com/Ayms/bitcoin-wallets)
 * [Ayms/torrent-live](https://github.com/Ayms/torrent-live)
 * [Ayms/node-Tor](https://github.com/Ayms/node-Tor)
 * [Ayms/iAnonym](https://github.com/Ayms/iAnonym)
